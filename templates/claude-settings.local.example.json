@@ -1,0 +1,16 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [],
+  "disabledMcpjsonServers": [],
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Read(.claude/**)",
+      "Read(docs/**)",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(jq:*)"
+    ]
+  }
+}
+

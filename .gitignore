@@ -1,0 +1,6 @@
+.workspace-temp/
+.claude/settings.local.json
+node_modules/
+dist/
+coverage/
+

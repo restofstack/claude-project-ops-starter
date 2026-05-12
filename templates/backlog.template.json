@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "key": "PROJ-001",
+      "title": "Example backlog item",
+      "type": "feature",
+      "status": "todo",
+      "priority": "medium",
+      "labels": [
+        "quick-win"
+      ],
+      "notes": "Replace this file with your real backlog source when needed."
+    }
+  ]
+}
+
