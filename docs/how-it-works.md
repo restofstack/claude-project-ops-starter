@@ -45,3 +45,9 @@ Claude should synthesize from your real systems of record, not replace them:
 
 The command files in `.claude/commands/` pull those layers together into reusable workflows.
 
+Examples:
+
+- planning and capture: `/standup`, `/bug`, `/rfe`
+- memory and handoff: `/reflect`, `/checkpoint`
+- durable learning: `/docs-sync`, `/root-cause`
+- publishing and sharing: `/weekly-report`, `/release-notes`, `/sanitize`

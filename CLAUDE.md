@@ -25,6 +25,8 @@ Start with the curated docs in `docs/maintainers/README.md`.
 
 - `/standup` should synthesize current state, not dump raw data
 - `/bug` and `/rfe` should capture work cleanly, not over-spec it
-- `/reflect` should keep memory short and cheap
+- `/reflect` and `/checkpoint` should keep memory short and cheap
+- `/docs-sync` and `/root-cause` should preserve durable learning, not create noise
 - `/weekly-report` should publish a durable snapshot somewhere searchable
-
+- `/release-notes` should summarize shipped value, not commit history
+- `/sanitize` should remove private residue while preserving the workflow

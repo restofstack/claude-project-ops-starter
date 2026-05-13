@@ -13,9 +13,8 @@ This starter is opinionated about the pattern, not the products:
 - `.claude/commands/` for reusable Claude Code workflows
 - `CLAUDE.md` for repo-level operating rules
 - `docs/maintainers/` for curated durable context
-- `templates/context-db.template.json` for cross-session memory
+- `templates/` for cross-session memory and reporting templates
 - `docs/adapters/` for swapping tools without changing the overall pattern
-- `drafts/hashnode-post.md` for the companion write-up
 
 ## Core idea
 
@@ -28,11 +27,9 @@ Claude works better on real projects when it has four stable context layers:
 
 The commands in `.claude/commands/` sit on top of those layers and turn them into repeatable workflows like:
 
-- `/standup`
-- `/bug`
-- `/rfe`
-- `/reflect`
-- `/weekly-report`
+- planning and capture: `/standup`, `/bug`, `/rfe`
+- memory and learning: `/reflect`, `/checkpoint`, `/root-cause`, `/docs-sync`
+- publishing and sharing: `/weekly-report`, `/release-notes`, `/sanitize`
 
 ## Quick Start
 
@@ -45,10 +42,10 @@ The commands in `.claude/commands/` sit on top of those layers and turn them int
 
 - Replace placeholder project keys, labels, and URLs in `.claude/commands/`
 - Decide where weekly reports should land by default
+- Decide whether release notes and incident notes should live in `docs/` or an external system
 - Adjust the priority labels to match your team
 - Keep `CLAUDE.md` short and move heavier context into `docs/maintainers/`
 
 ## Share safely
 
 Before making your setup public, read `docs/sanitize-before-sharing.md`.
-

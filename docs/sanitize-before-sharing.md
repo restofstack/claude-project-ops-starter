@@ -22,3 +22,4 @@ Before publishing your Claude setup, remove or replace:
 - live `.workspace-temp/context-db.json`
 - any repo-specific secrets or allowlists
 
+If you are turning a private workflow or report into a public artifact, use the `sanitize` command first and then review the result manually.
